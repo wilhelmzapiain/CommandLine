@@ -26,7 +26,7 @@ Coming soon…
 
 ### Examples
 <!--This section shows examples of usage and the expected output if possible. It's helpful to have the smallest example of usage that can be demonstrated inline, while providing links to more sophisticated examples if they are too long to include reasonably.-->
-Buildable examples can be found in the [Xmpl] directory.
+Buildable examples can be found in the [Eg] directory.
 
 #### WiZaRo.CommandLine.Fluent
 The static class `WiZaRo.CommandLine.Fluent.Start` contains the entry points to the fluent API.
@@ -82,10 +82,10 @@ Thanks to all contributors at [System.CommandLine].
 <!--Links-->
 [Changelog]: ./CHANGELOG.md
 [Contribution Guidelines]: ./CONTRIBUTING.md
-[Fluent Example]: ./Xmpl/Core/Fluent/FluentExample.cs
+[Fluent Example]: ./Eg/Core/Fluent/FluentExample.cs
 [Issues]: https://github.com/wizaro/CommandLine/issues
 [MIT]: ./LICENSE
 [System.CommandLine]: https://github.com/dotnet/command-line-api
 [Summary]: https://choosealicense.com/licenses/mit/ "Choose a License's MIT Summary"
 [Wilhelm Zapiain]: https://github.com/wilhelmzapiain
-[Xmpl]: ./Xmpl "Examples"
+[Eg]: ./Eg "Examples"

@@ -22,7 +22,7 @@ namespace WiZaRo.CommandLine.Fluent
         /// <exception cref="ArgumentNullException"><paramref name="rootBuilder"/> is <see langword="null"/>.</exception>
         /// <example>
         ///     <para>The following example shows how to define a command line using the fluent API:</para>
-        ///     <code source="..\..\..\Xmpl\Core\Fluent\FluentExample.cs" lang="C#" />
+        ///     <code source="..\..\..\Eg\Core\Fluent\FluentExample.cs" lang="C#" />
         /// </example>
         [CLSCompliant(false)]
         public static CommandLineBuilder DefineCommandLine(Action<CommandBuilder> rootBuilder)
