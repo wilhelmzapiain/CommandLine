@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <AssemblyName>WiZaRo.CommandLine.Core.Xmpl</AssemblyName>
+    <AssemblyName>WiZaRo.CommandLine.Core.Eg</AssemblyName>
     <RootNamespace>WiZaRo.CommandLine.Examples</RootNamespace>
     <Description>WiZaRo's Command Line Interface core library.</Description>
   </PropertyGroup>
