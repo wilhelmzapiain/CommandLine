@@ -9,28 +9,32 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{7FD121E2
 		Directory.Build.rsp = Directory.Build.rsp
 		Directory.Build.targets = Directory.Build.targets
 		.Build\GenerateComplementaryAssemblyInfo.targets = .Build\GenerateComplementaryAssemblyInfo.targets
+		..\GitVersion.yml = ..\GitVersion.yml
 		.Build\PreparePackageReleaseNotesFromFile.targets = .Build\PreparePackageReleaseNotesFromFile.targets
 		PublicKey.snk = PublicKey.snk
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Config", "Config", "{EECB56C4-4A16-41E8-B2AD-4B05831CB410}"
-	ProjectSection(SolutionItems) = preProject
-		.editorconfig = .editorconfig
-		..\.gitattributes = ..\.gitattributes
-		..\.gitignore = ..\.gitignore
-		.vsconfig = .vsconfig
-		CommandLine.sln.vsspell = CommandLine.sln.vsspell
-		..\GitVersion.yml = ..\GitVersion.yml
-		stylecop.json = stylecop.json
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{BDF7066C-A817-4305-8035-58B7AC6EC398}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{139B9FF0-ABAA-4797-AB6E-2B22D8E46E4A}"
 	ProjectSection(SolutionItems) = preProject
 		..\CHANGELOG.md = ..\CHANGELOG.md
 		..\CODE_OF_CONDUCT.md = ..\CODE_OF_CONDUCT.md
 		..\CONTRIBUTING.md = ..\CONTRIBUTING.md
 		..\LICENSE = ..\LICENSE
 		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ide", "Ide", "{IdeGuid}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.vsconfig = .vsconfig
+		CommandLine.sln.vsspell = CommandLine.sln.vsspell
+		stylecop.json = stylecop.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scm", "Scm", "{EECB56C4-4A16-41E8-B2AD-4B05831CB410}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitattributes = ..\.gitattributes
+		..\.gitignore = ..\.gitignore
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{5E51341F-EB26-4B58-B955-F9BD0E2F445E}"
