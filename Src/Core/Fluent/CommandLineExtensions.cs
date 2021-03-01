@@ -21,7 +21,7 @@ namespace WiZaRo.CommandLine.Fluent
         /// <returns>The <paramref name="builder"/> to allow chaining.</returns>
         /// <exception cref="ArgumentNullException">Either <paramref name="builder"/> or <paramref name="binder"/> is <see langword="null"/>.</exception>
         /// <example>
-        ///     <para>The following example shows how use host services during command binding:</para>
+        ///     <para>The following example shows how use host services during command binding.</para>
         ///     <code source="..\..\..\Eg\Core\Fluent\FluentExample.cs" lang="C#" />
         /// </example>
         [CLSCompliant(false)]

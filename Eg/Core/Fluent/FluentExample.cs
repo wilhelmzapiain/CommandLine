@@ -22,6 +22,7 @@ namespace WiZaRo.CommandLine.Examples.Fluent
         public static Task<int> Main(string[] args)
         {
             return Start.DefineCommandLine(rootBuilder => rootBuilder
+
                     // The following defines the HelloWorld command.
                     .AddCommand("HelloWorld", commandBuilder => commandBuilder
                         .SetDescription("Salutes the globe.")

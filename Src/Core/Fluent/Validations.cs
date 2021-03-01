@@ -34,7 +34,7 @@ namespace WiZaRo.CommandLine.Fluent
                 var prefix = Prefixes[i];
                 if (alias.StartsWith(prefix, StringComparison.InvariantCulture))
                 {
-                    alias = alias.Substring(prefix.Length);
+                    alias = alias[prefix.Length..];
                     break;
                 }
             }
@@ -84,7 +84,7 @@ namespace WiZaRo.CommandLine.Fluent
                 var prefix = Prefixes[i];
                 if (name.StartsWith(prefix, StringComparison.InvariantCulture))
                 {
-                    name = name.Substring(prefix.Length);
+                    name = name[prefix.Length..];
                     break;
                 }
             }
